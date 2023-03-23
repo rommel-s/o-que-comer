@@ -8,10 +8,28 @@ export default defineConfig({
     react(),
     VitePWA({
       manifest: {
+        name: "O que comer?",
+        short_name: "O que comer?",
+        start_url: ".",
+        display: "standalone",
+        theme_color: "#ffffff",
+        background_color: "#ffffff",
         icons: [
           {
-            src: "/icons/512x512.png",
+            src: "/assets/logo/512x512.png",
             sizes: "512x512",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/assets/logo/192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/assets/logo/144x144.png",
+            sizes: "144x144",
             type: "image/png",
             purpose: "any maskable",
           },
