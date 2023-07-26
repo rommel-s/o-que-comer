@@ -13,7 +13,7 @@ const MainContainer = ({ addedItem, deleteOption }) => {
           <Image src="assets/icons/plate.svg" alt="food"></Image>
           <ContainerText>
             Adicione opções <br />
-            clicando em <PlusCircle size={16} weight="fill" />
+            clicando no <PlusCircle size={16} weight="fill" />
           </ContainerText>
         </>
       ) : (

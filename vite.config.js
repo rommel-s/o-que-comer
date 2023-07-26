@@ -7,6 +7,10 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
+      workbox: {
+        globPatterns: ["**/*"],
+      },
+      includeAssets: ["**/*"],
       manifest: {
         name: "O que comer?",
         short_name: "O que comer?",
